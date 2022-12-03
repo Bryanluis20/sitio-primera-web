@@ -1,8 +1,9 @@
 # sitio-primera-web
 sistema web de una tienda 
 
-Usuarios para acceder al sistema
+AVISO IMPORTANTE: Se necesita tener acceso a Internet para que el sistema funcione correctamenete, debido a que algunos componentes se jalaron desde Bootstrap.
 
+Usuarios para acceder al sistema
 
 USERS      PASSWORDS
 
