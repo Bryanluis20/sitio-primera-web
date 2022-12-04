@@ -58,4 +58,10 @@
         <li><a href="daily_sales.php">Ventas diarias</a> </li>
       </ul>
   </li>
+      <li>
+      <a href="archivos.php" >
+        <i class="glyphicon glyphicon-folder-open"></i>
+        <span>Archivos</span>
+      </a>
+    </li>
 </ul>
