@@ -9,6 +9,7 @@
  $c_product       = count_by_id('products');
  $c_sale          = count_by_id('sales');
  $c_user          = count_by_id('users');
+ $c_Archivos      = count_by_id('Archivos');
  $products_sold   = find_higest_saleing_product('10');
  $recent_products = find_recent_product_added('5');
  $recent_sales    = find_recent_sale_added('5')
@@ -68,6 +69,17 @@
        </div>
     </div>
 </div>
+    <div class="col-md-3">
+       <div class="panel panel-box clearfix">
+         <div class="panel-icon pull-left bg-blue">
+          <i class="glyphicon glyphicon-shopping-cart"></i>
+        </div>
+        <div class="panel-value pull-right">
+          <h2 class="margin-top"> </h2>
+          <p class="text-muted">Archivos</p>
+        </div>
+       </div>
+    </div>
 
   <div class="row">
    <div class="col-md-4">
