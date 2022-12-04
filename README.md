@@ -16,6 +16,7 @@ user-  user.
 La base de datos se en encuentra el proyecto y se llama, oswa_inv
 
 Integrantes del Equipo:
+
 Abilene Guadalupe Avendaño Sanchez  - C17161059
 
 Bryan Luis Pineda   -  19920162
@@ -24,6 +25,6 @@ Esther Mejia Antonio  -  19920168
 
 Grupo: A    
 
-Materia: Desarrollo de Aplicaciones Moviles
+Materia: Desarrollo de Aplicaciones Web
 
 Ingenieria Informatica
