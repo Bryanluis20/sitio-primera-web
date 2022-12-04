@@ -27,4 +27,10 @@
       <span>Media</span>
     </a>
   </li>
+  <li>
+      <a href="media.php" >
+        <i class="glyphicon glyphicon-picture"></i>
+        <span>Archivos</span>
+      </a>
+    </li>
 </ul>
