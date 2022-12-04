@@ -10,3 +10,4 @@ USERS      PASSWORDS
 admin - admin, 
 special - special,
 user-  user.
+La base de datos se en encuentra el proyecto y se llama, oswa_inv
