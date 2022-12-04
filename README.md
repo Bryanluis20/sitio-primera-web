@@ -22,6 +22,8 @@ Bryan Luis Pineda   -  19920162
 
 Esther Mejia Antonio  -  19920168
 
-Grupo: A       Materia: Desarrollo de Aplicaciones Moviles
+Grupo: A    
+
+Materia: Desarrollo de Aplicaciones Moviles
 
 Ingenieria Informatica
