@@ -9,7 +9,7 @@ function suggetion() {
 
          if(formData['product_name'].length >= 1){
 
-           // process the form
+           
            $.ajax({
                type        : 'POST',
                url         : 'ajax.php',
@@ -18,7 +18,7 @@ function suggetion() {
                encode      : true
            })
                .done(function(data) {
-                   //console.log(data);
+                   
                    $('#result').html(data).fadeIn();
                    $('#result li').click(function() {
 
@@ -47,7 +47,7 @@ function suggetion() {
       var formData = {
           'p_name' : $('input[name=title]').val()
       };
-        // process the form
+        
         $.ajax({
             type        : 'POST',
             url         : 'ajax.php',
@@ -56,7 +56,7 @@ function suggetion() {
             encode      : true
         })
             .done(function(data) {
-                //console.log(data);
+                
                 $('#product_info').html(data).show();
                 total();
                 $('.datePicker').datepicker('update', new Date());
@@ -77,15 +77,15 @@ function suggetion() {
 
   $(document).ready(function() {
 
-    //tooltip
+    
     $('[data-toggle="tooltip"]').tooltip();
 
     $('.submenu-toggle').click(function () {
        $(this).parent().children('ul.submenu').toggle(200);
     });
-    //suggetion for finding product names
+    
     suggetion();
-    // Callculate total ammont
+    
     total();
 
     $('.datepicker')
