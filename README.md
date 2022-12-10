@@ -1,5 +1,6 @@
-# sitio-primera-web version 1.0
-sistema web de una tienda 
+# sitio-primera-web 
+
+sistema web de una tienda - Version 1.0
 
 AVISO IMPORTANTE: Se necesita tener acceso a Internet para que el sistema funcione correctamenete, debido a que algunos componentes se jalaron desde Bootstrap.
 
