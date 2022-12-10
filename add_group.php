@@ -1,7 +1,6 @@
 <?php
   $page_title = 'Agregar grupo';
   require_once('includes/load.php');
-  // Checkin What level user has permission to view this page
    page_require_level(1);
 ?>
 <?php
@@ -28,11 +27,10 @@
         $query .=" '{$name}', '{$level}','{$status}'";
         $query .=")";
         if($db->query($query)){
-          //sucess
           $session->msg('s',"Grupo ha sido creado! ");
           redirect('add_group.php', false);
         } else {
-          //failed
+       
           $session->msg('d','Lamentablemente no se pudo crear el grupo!');
           redirect('add_group.php', false);
         }
