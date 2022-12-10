@@ -1,11 +1,11 @@
-# sitio-primera-web
+# sitio-primera-web version 1.0
 sistema web de una tienda 
 
 AVISO IMPORTANTE: Se necesita tener acceso a Internet para que el sistema funcione correctamenete, debido a que algunos componentes se jalaron desde Bootstrap.
 
-Usuarios para acceder al sistema
+Usuarios y contrasena para acceder al sistema:
 
-USERS      PASSWORDS
+USERS   -   PASSWORDS
 
 admin - admin 
 
