@@ -1,7 +1,6 @@
 <?php
   $page_title = 'Editar Grupo';
   require_once('includes/load.php');
-  // Checkin What level user has permission to view this page
    page_require_level(1);
 ?>
 <?php
@@ -26,11 +25,11 @@
         $query .= "WHERE ID='{$db->escape($e_group['id'])}'";
         $result = $db->query($query);
          if($result && $db->affected_rows() === 1){
-          //sucess
+        
           $session->msg('s',"Grupo se ha actualizado! ");
           redirect('edit_group.php?id='.(int)$e_group['id'], false);
         } else {
-          //failed
+          
           $session->msg('d','Lamentablemente no se ha actualizado el grupo!');
           redirect('edit_group.php?id='.(int)$e_group['id'], false);
         }
