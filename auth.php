@@ -8,9 +8,7 @@ $password = remove_junk($_POST['password']);
 if(empty($errors)){
   $user_id = authenticate($username, $password);
   if($user_id){
-    //create session with id
      $session->login($user_id);
-    //Update Sign in time
      updateLastLogIn($user_id);
      $session->msg("s", "Bienvenido a Tecno BRABE.   -Se implemento JQuery");
      redirect('home.php',false);
