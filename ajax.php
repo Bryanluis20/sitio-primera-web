@@ -4,7 +4,6 @@
 ?>
 
 <?php
- // Auto suggetion
     $html = '';
    if(isset($_POST['product_name']) && strlen($_POST['product_name']))
    {
@@ -27,7 +26,6 @@
    }
  ?>
  <?php
- // find all product
   if(isset($_POST['p_name']) && strlen($_POST['p_name']))
   {
     $product_title = remove_junk($db->escape($_POST['p_name']));
